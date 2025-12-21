@@ -333,6 +333,16 @@ footer {
     background-color: #00adb5;
 }
 
+.links {
+    text-decoration-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+footer :hover{
+    color: #00adb5
+}
+
 @media (max-width: 1023px) {
   header {
     margin-left: 1rem;
