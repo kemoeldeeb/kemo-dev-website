@@ -9,8 +9,8 @@
 }
 
 .mylogo {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 body {
@@ -345,8 +345,8 @@ footer :hover{
 
 @media (max-width: 1023px) {
   header {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
   .mylogo {
     align-items: left;
