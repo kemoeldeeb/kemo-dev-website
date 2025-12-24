@@ -9,8 +9,8 @@
 }
 
 .mylogo {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 
 body {
@@ -347,6 +347,9 @@ footer :hover{
   header {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .mylogo {
+    align-items: left;
   }
   .hero {
     flex-direction: column;
