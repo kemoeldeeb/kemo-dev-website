@@ -86,8 +86,8 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0.5rem auto;
+    align-items: left;
+    margin: 0.5rem ;
     max-width: 1200px;
     padding: 0 0.5rem;
 }
