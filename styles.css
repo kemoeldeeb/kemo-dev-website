@@ -9,8 +9,8 @@
 }
 
 .mylogo {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 body {
@@ -87,7 +87,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem auto;
+    margin: 1rem auto;
     max-width: 1200px;
     padding: 0 0.5rem;
 }
@@ -95,7 +95,7 @@ header {
 .navigation ul {
     display: flex;
     list-style-type: none;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .navigation a {
@@ -345,8 +345,8 @@ footer :hover{
 
 @media (max-width: 1023px) {
   header {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .mylogo {
     align-items: left;
