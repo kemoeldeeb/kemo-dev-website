@@ -11,6 +11,8 @@
 .mylogo {
   width: 90px;
   height: 90px;
+  display: block;
+  margin: 1rem auto; /* centers logo */
 }
 
 body {
@@ -84,12 +86,13 @@ html {
 }
 
 header {
+    flex-direction: column;
+    align-items: center;
     display: flex ;
     justify-content: space-between;
-    align-items: start;
     margin: 2rem auto;
     max-width: 1200px;
-    padding: 0 0.5rem;
+    padding: 0 0rem;
 }
 
 .navigation ul {
@@ -379,7 +382,7 @@ footer :hover{
   .contact,
   footer,
   .socialMedia {
-    gap: 10px;
+    gap: 9px;
     font-size: 1.5rem;
   }
   .light {
@@ -421,12 +424,11 @@ footer :hover{
     font-size: 1rem;
   }
   hr{
-    padding-right: 29rem;
+    padding-right: 25rem;
   }
   .socialMedia,.contactContainer,.contactTitle{
     transform: translateX(1.5rem);
   }
   footer{
-    transform: translateX(4rem);
-  }
+    transform: translateX(4rem);}
 }
